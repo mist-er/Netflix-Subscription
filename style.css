@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Poppins:ital@0;1&family=Roboto:wght@300&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .card-margin {
+            padding: 50px 38px;
+        }
+
+        .logo {
+            height: 80px;
+        }
+
+        .grid-wrapper {
+            border: 2px solid rebeccapurple;
+            display: grid;
+            grid-template: 80px 40fr / 1fr;
+        }
+
+        .flex-wrap-nav {
+            border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .flex-wrap-nav > * {
+            border: 1px dashed red; 
+        }
+
+        .sign {
+            display: flex;
+            align-items: center;
+            font-size: 19px;
+            margin: 0 37.5px;
+            font-family: 'Jost', sans-serif;
+        }
+
+        .card {
+            border: 1px dashed rgb(61, 47, 255);
+            height: 615px;
+            width: 280px;
+            border-radius: 18px;
+        }
+        .cd-raduis {
+            border-radius: 0 0 18px 18px;
+        }
+
+        .flex-wrap-card {
+            display: flex;
+            justify-content: center;
+            gap: 13px;
+        }
+
+
+        .flex-btn {
+            border: 1px dashed rgb(47, 120, 255);
+            display: flex;
+            justify-content: center;
+        }
+        button {
+            border: none;
+            height: 72px;
+            width: 440px;
+            border-radius: 4.5px;
+            color: rgb(255, 255, 255);
+            background-color: #e50914;
+            margin: 40px 0 0 0;
+            font-size: 25px;
+            font-family: 'Jost', sans-serif;
+        }
+
+        .popular {
+            border: 2px solid #250204;
+            color: #fff;
+            background-color: #e50914;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 280px;
+            height: 28px;
+            position: relative;
+            left: 12px;
+            font-size: 13px;
+            border-radius: 13px 13px 0 0;
+            font-family: 'Jost', sans-serif;
+        }
+
+        .step {
+            font-size: 13px;
+        }
+
+        h2 {
+            margin: 0 0 12.8px 0;
+            font-size: 2rem;
+            font-family: 'Jost', sans-serif;
+        }
+
+        p {
+            font-size: 12.5px;
+            padding: 20px 0 0 0;
+        }
+
+        footer {
+
+            display: flex;
+            justify-content: space-around;
+        }
