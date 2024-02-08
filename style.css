@@ -42,7 +42,8 @@
         .card {
             border: 1px dashed rgb(61, 47, 255);
             display: flex;
-            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             height: 615px;
             width: 280px;
             border-radius: 18px;
@@ -123,7 +124,7 @@
           
         }
 
-        h4 {
+        h4.ft-hd {
             margin-bottom: 35px;
         }
         li {
@@ -132,7 +133,7 @@
            line-height: 2.5;
         }
         
-        .down {
+        .ft-col-txt-down {
             margin-top: 50px;
         }
 
@@ -142,4 +143,10 @@
             width: 260px;
             margin: 8px 0;
             border-radius: 12px;
+            padding: 10px 16px;
+        }
+
+        .cd-box-features {
+            border: 1px solid red;
+            width: 260px;
         }
