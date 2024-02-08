@@ -5,7 +5,6 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Roboto', sans-serif;
-            font-family: 'Roboto', sans-serif;
         }
 
         .card-margin {
@@ -46,7 +45,7 @@
             width: 280px;
             border-radius: 18px;
         }
-        .cd-raduis {
+        .cd-radius {
             border-radius: 0 0 18px 18px;
         }
 
@@ -101,12 +100,34 @@
         }
 
         p {
+
             font-size: 12.5px;
-            padding: 20px 0 0 0;
+            line-height: 2.3;
         }
 
         footer {
+            padding: 25px 0;
+        }
 
+        .ft-row {
             display: flex;
-            justify-content: space-around;
+        }
+
+        .ft-col {
+            width: 21%;
+            padding: 0 38px;
+          
+        }
+
+        h4 {
+            margin-bottom: 35px;
+        }
+        li {
+           list-style: none;
+           font-size: 13px;
+           line-height: 2.5;
+        }
+        
+        .down {
+            margin-top: 50px;
         }
