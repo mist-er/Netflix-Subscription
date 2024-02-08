@@ -25,6 +25,7 @@
             border: 1px solid red;
             display: flex;
             justify-content: space-between;
+            flex: 1;
         }
         
         .flex-wrap-nav > * {
@@ -143,10 +144,14 @@
             width: 260px;
             margin: 8px 0;
             border-radius: 12px;
-            padding: 10px 16px;
+            padding: 11.5px 16px;
         }
 
         .cd-box-features {
             border: 1px solid red;
             width: 260px;
+            padding: 0 24px;
+            font-size: 14px;
+            font-family: 'Jost', sans-serif;
+
         }
