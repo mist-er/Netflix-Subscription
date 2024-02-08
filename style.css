@@ -12,13 +12,13 @@
         }
 
         .logo {
-            height: 80px;
+            height: 90px;
         }
 
         .grid-wrapper {
             border: 2px solid rebeccapurple;
             display: grid;
-            grid-template: 80px 40fr / 1fr;
+            grid-template: 90px 40fr / 1fr;
         }
 
         .flex-wrap-nav {
@@ -41,6 +41,8 @@
 
         .card {
             border: 1px dashed rgb(61, 47, 255);
+            display: flex;
+            justify-content: center;
             height: 615px;
             width: 280px;
             border-radius: 18px;
@@ -107,6 +109,8 @@
 
         footer {
             padding: 25px 0;
+            color:#767676;
+            background-color:#f3f3f3;
         }
 
         .ft-row {
@@ -130,4 +134,12 @@
         
         .down {
             margin-top: 50px;
+        }
+
+        .cd-box {
+            border: 1px solid #000;
+            height: 83px;
+            width: 260px;
+            margin: 8px 0;
+            border-radius: 12px;
         }
