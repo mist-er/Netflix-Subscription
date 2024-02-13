@@ -17,7 +17,7 @@
         }
 
         .grid-wrapper {
-            border: 2px solid rebeccapurple;
+            border: 2px solid blue;
             display: grid;
             grid-template: 90px 40fr / 1fr;
         }
@@ -142,13 +142,13 @@
 
         .cd-box {
             border: 1px solid #000;
-            background-color: #333333;
             color: #fff;
             height: 83px;
             width: 260px;
             margin: 8px 0 10px 0;
             border-radius: 12px;
             padding: 11.5px 16px;
+            background: radial-gradient(farthest-side at 80% 55%, rgba(219, 23, 23, 78),rgba(21, 21, 112, 80));
         }
 
         .cd-box-features {
